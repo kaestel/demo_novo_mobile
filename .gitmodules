@@ -4,3 +4,6 @@
 [submodule "submodules/wtf-js-merger"]
 	path = submodules/wtf-js-merger
 	url = https://github.com/hvadhedderde/wtf-js-merger.git
+[submodule "submodules/janitor"]
+	path = submodules/janitor
+	url = https://github.com/hvadhedderde/janitor.git
