@@ -1,0 +1,142 @@
+* {font-family: verdana, arial, sans-serif; font-size: 13px; line-height: 18px; color: #82786f;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {background: #fff; margin: 0; padding: 0;
+  -webkit-text-size-adjust: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt, address {padding: 0; margin: 0;}
+ul {list-style: none;}
+a {cursor: pointer; color: #009fda; text-decoration: none;}
+img {border: 0; display: block;}
+
+h1 {color: #000; padding: 18px 14px 14px 14px; font-size: 20px; font-weight: normal;
+  background: -moz-linear-gradient(top, rgba(233,233,233,1) 0%, rgba(253,253,253,0.84) 20%, rgba(253,253,253,0) 100%);
+	background: -webkit-linear-gradient(top, rgba(233,233,233,1) 0%, rgba(253,253,253,0.84) 20%, rgba(253,253,253,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(233,233,233,1)), color-stop(20%,rgba(253,253,253,0.84)), color-stop(100%,rgba(253,253,253,0)));
+}
+h2 {padding: 11px 14px 0 14px; font-weight: normal; font-size: 14px; color: #333333;}
+h3 {padding: 0 14px 0 14px; font-weight: bold;}
+p {padding: 0 14px 18px 14px;}
+
+/* Header logo + menu button*/
+#header {overflow: hidden; height: 74px;}
+#header li.front {background: url(../img/bg_logo.png) no-repeat 1px 1px; background-size: 87px auto; float: left; width: 87px;}
+#header li.front {background-image: url(../img/bg_logo_ie.png)\9;}
+
+#header li.front a {display: block; height: 72px; text-indent: -9999px; overflow: hidden;}
+
+/* Header navigation */
+#header li.navigation {background: url(../img/bg_menu.png) no-repeat; background-size: 103px auto; margin: 16px 10px 6px; float: right; width: 103px;}
+#header li.navigation {background-image: url(../img/bg_menu_ie.png)\9;}
+#header li.navigation a {display: block; height: 52px; text-indent: -9999px; overflow: hidden;}
+
+/* TODO: What is this for? */
+#content {background: #fff url(../img/bg_content.png) repeat-x left bottom; background-size: auto 328px;}
+#content {background-image: url(../img/bg_content_ie.png)\9;}
+#content.front {padding-top: 0;}
+
+/* Front page shortcuts (subnavigation for front page only) */
+#content .shortcuts {overflow: hidden;}
+#content .shortcuts h3 {font-weight: normal; padding: 7px 0 6px 14px; border-bottom: 1px solid #e3e2de;}
+#content .shortcuts ul {margin-bottom: 20px; border-bottom: 1px solid #f2f1ed;}
+
+/* Subnavigation for sub pages */
+#content .subnavigation h3 {font-weight: normal; padding: 10px 0 9px 14px; border-bottom: 1px solid #e3e2de; text-align: center; background: #eeeeee url(../img/bg_copyright.png) repeat-x;}
+#content .subnavigation h3 {background-image: url(../img/bg_copyright_ie.png)\9;}
+#content .subnavigation ul li {box-shadow: none;}
+
+/* References navigation (with icons) */
+#content .references {overflow: hidden; margin-bottom: 25px; border-bottom: 1px solid #f2f1ed;}
+#content .references li {padding-left: 14px; border-bottom: 1px solid #e3e2de; border-top: 1px solid #f2f1ed;
+	background-color: #f1f1f1;
+	background: -moz-linear-gradient(top, #ffffff, #f1f1f1);
+	background: -webkit-linear-gradient(top, #ffffff, #f1f1f1);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f1f1f1));
+}
+#content .references li a {background: transparent url(../img/bg_buttons.png) no-repeat 0 -137px; background-size: 26px auto; padding: 12px 0 13px 30px; display: block; font-size: 14px;}
+#content .references li a {background-image: url(../img/bg_buttons_ie.png)\9;}
+
+/* Footer */
+#footer {border-top: 1px solid #f2f1ed;}
+#footer.frontpage {border-top: 0;}
+#footer li {padding: 0 10px 0 14px;}
+
+/* Navigations in footer */
+#footer .navs {overflow: hidden; margin: 0 10px; border-bottom: 2px solid #e1ded8; padding: 20px 0;}
+#footer .navs {*zoom: 1;}
+#footer .navs * {font-size: 14px;}
+
+#footer .servicenavigation {float: left; margin-top: -9px;}
+#footer .servicenavigation .top {display: none;}
+#footer .servicenavigation li,
+#footer .socialnavigation li {padding: 6px 4px;}
+
+#footer .socialnavigation {float: right; border-left: 2px solid #e1ded8; width: 107px;}
+#footer .socialnavigation ul {margin-top: -9px;}
+#footer .socialnavigation li {padding-left: 20px;}
+#footer .socialnavigation li.twitter {padding-bottom: 0;}
+
+/* Elevator in footer */
+#footer .elevator {padding: 80px 0 2px; background: transparent url(../img/bg_logo.png) no-repeat 2px 7px; background-size: 87px auto;}
+#footer .elevator {background-image: url(../img/bg_logo_ie.png)\9;}
+#footer .elevator * {line-height: 17px;}
+
+/* Copyright text in footer */
+#footer .copyright {display: block;	height: 95px; background: #eeeeee url(../img/bg_copyright.png) repeat-x; background-size: auto 6px;}
+#footer .copyright {background-image: url(../img/bg_copyright_ie.png)\9;}
+#footer .copyright li {float: right; padding: 14px 16px 7px 14px;}
+#footer .copyright li.year {float: left; padding-right: 0;}
+#footer .copyright li.privacy {padding-left: 0;}
+#footer .copyright li * {font-size: 12px; line-height: 19px;}
+#footer .copyright li a {color: #82786f;}
+
+/* Shortcut and subnavigation buttons */
+.button {border-top: 1px solid #f2f1ed; border-bottom: 1px solid #e3e2de;
+	background-color: #f1f1f1;
+	background: -moz-linear-gradient(top, #ffffff, #f1f1f1);
+	background: -webkit-linear-gradient(top, #ffffff, #f1f1f1);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f1f1f1));
+}
+.button:active {border-top: 1px solid #1394b3; border-bottom: 1px solid #005e98;
+	background: -moz-linear-gradient(top, #01abdb, #0066a2);
+	background: -webkit-linear-gradient(top, #01abdb, #0066a2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#01abdb), to(#0066a2));
+}
+.button a {padding: 12px 10px 13px 14px; display: block; font-size: 18px; line-height: auto; color: #333333; background-position: right 13px; background-image: url(../img/bg_buttons.png); background-size: 26px auto; background-repeat: no-repeat; font-family: arial, verdana, sans-serif; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+.button a {background-image: url(../img/bg_buttons_ie.png)\9;}
+.button:active a {color: #ffffff; background-position: right -37px;}
+
+
+/* Drop down navigation */
+#navigation {display: none; overflow: hidden;}
+#navigation.open {border-bottom: 2px solid #009fda;}
+
+#navigation ul {}
+#navigation ul li.button {display: block; border: 0px; border-top: 1px solid #ffffff; border-bottom: 1px solid #e1ded8; background: transparent; box-shadow: none;}
+#navigation ul li.button:first-child {
+	background: -moz-linear-gradient(top, rgba(233,233,233,1) 0%, rgba(253,253,253,0.84) 20%, rgba(253,253,253,0) 100%);
+	background: -webkit-linear-gradient(top, rgba(233,233,233,1) 0%, rgba(253,253,253,0.84) 20%, rgba(253,253,253,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(233,233,233,1)), color-stop(20%,rgba(253,253,253,0.84)), color-stop(100%,rgba(253,253,253,0)));
+}
+#navigation ul li.button a {background: none; font-size: 16px; padding: 8px 10px 9px 14px;}
+#navigation ul li.button:last-child {border-bottom: 0;}
+#navigation ul li.button:active {border-bottom: 1px solid #07639c; border-top: 1px solid #179bbc;
+	background: -moz-linear-gradient(top, #01abdb, #0066a2);
+	background: -webkit-linear-gradient(top, #01abdb, #0066a2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#01abdb), to(#0066a2));
+}
+
+/* Home/back button */
+#content .back {border-bottom: 1px solid #e3e2de;}
+#content .back a {font-size: 18px; padding: 14px 0px 13px 35px; background: #fff url(../img/bg_buttons.png) no-repeat 14px -86px; background-size: 26px auto; font-family: Arial; display: block;}
+#content .back a {background-image: url(../img/bg_buttons_ie.png)\9;}
+
+/* Shared content */
+#content .image img {margin: 0 auto; max-width: 100%;}
+
+/* Product page content */
+#content.product ul.references {margin-top: -10px; margin-bottom: 45px;}
+#content.product ul.references li {border: 0px; background: transparent; box-shadow: none; margin-bottom: 0;}
+#content.product ul.references li a {padding-top: 11px; padding-bottom: 1px;}
