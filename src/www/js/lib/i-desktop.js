@@ -26,8 +26,6 @@ Util.Objects["validdevice"] = new function() {
 			warning.clicked = function(event) {
 				this.parentNode.removeChild(this);
 				u.saveCookie("warning", "true");
-
-				u.qs("#page").intro.sequence_player.play();
 			}
 		}
 

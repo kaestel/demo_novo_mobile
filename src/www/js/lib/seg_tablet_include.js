@@ -14,3 +14,5 @@ document.write('<script type="text/javascript" src="/js/jes/src/u-timer.js"></sc
 document.write('<script type="text/javascript" src="/js/jes/src/u-init-static.js"></script>');
 
 document.write('<script type="text/javascript" src="/js/lib/i-page.js"></script>');
+
+document.write('<script type="text/javascript" src="/js/lib/i-desktop.js"></script>');
