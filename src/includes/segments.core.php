@@ -16,7 +16,7 @@ $segments_config = array(
 		"desktop_ie10"  => "desktop_ie",
 		"desktop_ie9"   => "desktop_ie",
 
-		"smartphone"    => "smartphone",
+		"smartphone"    => "mobile_touch",
 
 		"desktop_light" => "desktop_light",
 		"tv"            => "desktop_light",
@@ -27,7 +27,7 @@ $segments_config = array(
 		"mobile"        => "mobile",
 		"mobile_light"  => "mobile_light",
 
-		"seo"           => "basic"
+		"seo"           => "desktop"
 	)
 
 );
